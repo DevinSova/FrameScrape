@@ -2,14 +2,16 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def scrapePage(link):
+def scrape_page(link):
     page = requests.get(link)
 
     soup = BeautifulSoup(page.content, 'html.parser')
 
     moves = soup.find_all("table", {"class": "wikitable"})
+    return moves[1]
+
     for move in moves:
-        print(move)
+        return move
         # for field in move.find_all("a"):
         #     print(field.contents)
 
