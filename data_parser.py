@@ -1,6 +1,8 @@
 
 def parse_moves_from_table(content):
-    print(content)
+    # print(content)
 
-    for move in content.findAll(["th", "p", "b"]):
-        print(move.text)
+    for info in content.findAll(["tr", "th", "p", "b"]):
+        print(info.text)
+
+    # Needs to handle tables with 1 moves OR MORE!
