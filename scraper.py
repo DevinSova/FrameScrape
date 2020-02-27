@@ -7,8 +7,12 @@ def scrape_page(link):
 
     soup = BeautifulSoup(page.content, 'html.parser')
 
-    moves = soup.find_all("table", {"class": "wikitable"})
-    return moves[1]
+    content = soup.find("div", {"class": "mw-content-ltr"})
+
+    moves = content.find_all("table", {"class": "wikitable", "style": "text-align: center; border-collapse: collapse; margin: 0em;"}, recursive=True)
+
+    return moves[0]
+    # TODO: Issue is wikitables are nested. So I want only non nested ones!
 
     for move in moves:
         return move
