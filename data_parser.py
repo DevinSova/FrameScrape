@@ -1,11 +1,11 @@
 import json
 
 
-def parse_moves(content):
+def parse_table(content):
     moves = list()
 
-    images = content[0].find("th")
-    move_info = content[0].find("td")
+    # images = content[0].find("th")
+    move_info = content.find("td")
 
     print(move_info.text)
 
@@ -16,24 +16,24 @@ def parse_moves(content):
     for header_html in headers_html:
         headers.append(header_html.text.replace('\n', ''))
 
+    print("Rows = {}".format(len(rows)))
     for i in range(1, len(rows), 2):
+        print("i = {}".format(i))
         values = list()
         values_html = rows[i].findAll(["th", "td"])
         for value_html in values_html:
             values.append(value_html.text.replace('\n', ''))
 
-        description = rows[i+1].text.replace('\n', '')
-        headers.append("Description")
-        values.append(description)
+        #description = rows[i+1].text.replace('\n', '')
+        #headers.append("Description")
+        #values.append(description)
 
         moves.append(dict(zip(headers, values)))
 
     print(moves)
     return moves
 
-    # Needs to handle tables with 1 moves OR MORE!
-
-    # in the rows:
+    # Rows list
     # [0] Header Row
     # --------------------
     # [1] Move 1 Values
