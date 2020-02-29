@@ -1,10 +1,10 @@
 from pages import P4AU
-from data_parser import parse_moves_from_table
+from data_parser import parse_moves
 from scraper import scrape_page
 
 
 def main():
-    parse_moves_from_table(scrape_page(P4AU["Chie_Satonaka"]))
+    parse_moves(scrape_page(P4AU["Chie_Satonaka"]))
 
 
 if __name__ == '__main__':
