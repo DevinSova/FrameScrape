@@ -49,4 +49,3 @@ def parse_table(content):
         moves.extend(new_moves)
 
     return moves
-

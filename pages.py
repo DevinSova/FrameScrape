@@ -22,3 +22,15 @@ P4AU = {
     "Yukari_Takeba": "https://www.dustloop.com/wiki/index.php?title=P4AU/Yukari_Takeba",
     "Yukiko_Amagi": "https://www.dustloop.com/wiki/index.php?title=P4AU/Yukiko_Amagi"
 }
+
+DBFZ = {}
+
+GBVS = {}
+
+BBTAG = {}
+
+GGXRD = {}
+
+BBCF = {}
+
+UNI = {}

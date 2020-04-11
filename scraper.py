@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from data_parser import parse_table
 
 
-def scrape_page(link):
+def scrape_page(name, link):
     page = requests.get(link)
 
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -20,7 +20,7 @@ def scrape_page(link):
 
     print(moves)
 
-    with open('out/Chie_Satonaka.json', 'w') as fp:
+    with open('out/{name}.json'.format(name=name), 'w') as fp:
         fp.write(simplejson.dumps(moves, indent=4, sort_keys=False))
 
     return moves
