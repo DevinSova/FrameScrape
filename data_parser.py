@@ -7,8 +7,6 @@ def parse_table(content):
     # images = content[0].find("th")
     move_info = content.find("td")
 
-    print(move_info.text)
-
     rows = move_info.findAll("tr")
 
     headers = list()
@@ -17,20 +15,28 @@ def parse_table(content):
         headers.append(header_html.text.replace('\n', ''))
 
     print("Rows = {}".format(len(rows)))
-    for i in range(1, len(rows), 2):
-        print("i = {}".format(i))
+    # THE 4 i in range wont work. It does 1,3,5 then just advances beteween them
+    # sometimes you need to go 1, 3(4), 6 (becuse 3 happened to be another header row)
+    i = 1
+    while i < len(rows):
         values = list()
+
         values_html = rows[i].findAll(["th", "td"])
+
+        if values_html[0].text == "Version\n":
+            i += 1
+            values_html = rows[i].findAll(["th", "td"])
+
         for value_html in values_html:
             values.append(value_html.text.replace('\n', ''))
 
-        #description = rows[i+1].text.replace('\n', '')
-        #headers.append("Description")
-        #values.append(description)
+        # description = rows[i+1].text.replace('\n', '')
+        # headers.append("Description")
+        # values.append(description)
 
         moves.append(dict(zip(headers, values)))
+        i += 2
 
-    print(moves)
     return moves
 
     # Rows list

@@ -1,5 +1,5 @@
 import requests
-import json
+import simplejson
 from bs4 import BeautifulSoup
 from data_parser import parse_table
 
@@ -21,6 +21,6 @@ def scrape_page(link):
     print(moves)
 
     with open('out/Chie_Satonaka.json', 'w') as fp:
-        fp.write(json.dumps(moves))
+        fp.write(simplejson.dumps(moves, indent=4, sort_keys=False))
 
     return moves
