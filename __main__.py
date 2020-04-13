@@ -1,4 +1,4 @@
-from pages import P4AU
+from pages import P4AU, DBFZ
 from scraper import scrape_page
 
 

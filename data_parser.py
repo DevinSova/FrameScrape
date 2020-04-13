@@ -36,7 +36,7 @@ def parse_table(content):
         # Check if it's a description row
         else:
             for new_move in new_moves:
-                new_move["Description"] = stats_or_description[0].text.replace('\n', '')
+                new_move["Description"] = stats_or_description[0].text  # TODO: Fix \n at start and end of Description
             moves.extend(new_moves)
             new_moves = list()
 
