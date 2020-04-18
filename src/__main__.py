@@ -1,4 +1,4 @@
-from pages import GAMES
+from games import GAMES
 from scraper import scrape_game
 
 
