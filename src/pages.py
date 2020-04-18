@@ -66,7 +66,25 @@ DBFZ = {
     "Fused_Zamasu": "https://www.dustloop.com/wiki/index.php?title=DBFZ/Fused_Zamasu"
 }
 
-GBVS = {}
+GBVS = {
+    "Beelzebub": "https://www.dustloop.com/wiki/index.php?title=GBVS/Beelzebub",
+    "Belial": "https://www.dustloop.com/wiki/index.php?title=GBVS/Belial",
+    "Charlotta": "https://www.dustloop.com/wiki/index.php?title=GBVS/Charlotta",
+    "Djeeta": "https://www.dustloop.com/wiki/index.php?title=GBVS/Djeeta",
+    "Ferry": "https://www.dustloop.com/wiki/index.php?title=GBVS/Ferry",
+    "Gran": "https://www.dustloop.com/wiki/index.php?title=GBVS/Gran",
+    "Katalina": "https://www.dustloop.com/wiki/index.php?title=GBVS/Katalina",
+    "Ladiva": "https://www.dustloop.com/wiki/index.php?title=GBVS/Ladiva",
+    "Lancelot": "https://www.dustloop.com/wiki/index.php?title=GBVS/Lancelot",
+    "Lowain": "https://www.dustloop.com/wiki/index.php?title=GBVS/Lowain",
+    "Metera": "https://www.dustloop.com/wiki/index.php?title=GBVS/Metera",
+    "Narmaya": "https://www.dustloop.com/wiki/index.php?title=GBVS/Narmaya",
+    "Percival": "https://www.dustloop.com/wiki/index.php?title=GBVS/Percival",
+    "Soriz": "https://www.dustloop.com/wiki/index.php?title=GBVS/Soriz",
+    "Vaseraga": "https://www.dustloop.com/wiki/index.php?title=GBVS/Vaseraga",
+    "Zeta": "https://www.dustloop.com/wiki/index.php?title=GBVS/Zeta",
+    "Zooey": "https://www.dustloop.com/wiki/index.php?title=GBVS/Zooey"
+}
 
 BBTAG = {}
 

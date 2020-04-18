@@ -1,4 +1,5 @@
 import json
+import re
 
 
 def parse_table(content):
@@ -36,7 +37,7 @@ def parse_table(content):
         # Check if it's a description row
         else:
             for new_move in new_moves:
-                new_move["Description"] = stats_or_description[0].text  # TODO: Fix \n at start and end of Description
+                new_move["Description"] = re.sub('\n\n', '', stats_or_description[0].text)
             moves.extend(new_moves)
             new_moves = list()
 
