@@ -3,7 +3,8 @@ from scraper import scrape_game
 
 
 def main():
-    scrape_game("P4AU", GAMES["P4AU"])
+    for game_name, pages in GAMES.items():
+        scrape_game(game_name, pages)
 
 
 if __name__ == '__main__':
