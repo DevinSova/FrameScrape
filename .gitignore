@@ -134,4 +134,5 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-out/*.json
+# Don't keep output in git
+out/*/*.json

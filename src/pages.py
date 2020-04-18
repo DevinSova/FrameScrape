@@ -93,3 +93,9 @@ GGXRD = {}
 BBCF = {}
 
 UNI = {}
+
+GAMES = {
+    "P4AU": P4AU,
+    "DBFZ": DBFZ,
+    "GBVS": GBVS
+}
