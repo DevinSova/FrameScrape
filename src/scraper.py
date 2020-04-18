@@ -7,8 +7,11 @@ from pathlib import Path
 
 def scrape_game(game_name, pages):
     print(f"Processing {game_name} ...")
+
+    # Parse each character page
     for character_name, link in pages.items():
         scrape_page(game_name, character_name, link)
+
     print(f"finished.\n")
 
 
@@ -26,9 +29,9 @@ def scrape_page(game_name, character_name, link):
     soup = BeautifulSoup(page.content, 'html.parser')
     content = soup.find("div", {"class": "mw-content-ltr"})
     tables = content.find_all("table", {"class": "wikitable", "style": "text-align: center; border-collapse: collapse; margin: 0em;"}, recursive=True)
-    moves = list()
 
     # Parse each table for move(s)
+    moves = list()
     for table in tables:
         moves.extend(parse_table(table))
 
