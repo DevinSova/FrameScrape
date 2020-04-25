@@ -150,15 +150,65 @@ BBTAG = {
     "Blitztank": "https://www.dustloop.com/wiki/index.php?title=BBTag/Blitztank"
 }
 
-GGXRD = {}
+GGXRDREV2 = {
+    "Answer": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Answer",
+    "Axl_Low": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Axl_Low",
+    "Baiken": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Baiken",
+    "Bedman": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Bedman",
+    "Chipp_Zanuff": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Chipp_Zanuff",
+    "Dizzy": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Dizzy",
+    "Elphelt_Valentine": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Elphelt_Valentine",
+    "Faust": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Faust",
+    "I-No": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/I-No",
+    "Jack-O'": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Jack-O'",
+    "Jam_Kuradoberi": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Jam_Kuradoberi",
+    "Johnny": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Johnny",
+    "Kum_Haehyun": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Kum_Haehyun",
+    "Ky_Kiske": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Ky_Kiske",
+    "Leo_Whitefang": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Leo_Whitefang",
+    "May": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/May",
+    "Millia_Rage": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Millia_Rage",
+    "Potemkin": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Potemkin",
+    "Ramlethal_Valentine": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Ramlethal_Valentine",
+    "Raven": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Raven",
+    "Sin_Kiske": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Sin_Kiske",
+    "Slayer": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Slayer",
+    "Sol_Badguy": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Sol_Badguy",
+    "Venom": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Venom",
+    "Zato-1": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Zato-1"
+}
 
 BBCF = {}
 
-UNI = {}
+UNICLR = {
+    "Hyde": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Hyde",
+    "Linne": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Linne",
+    "Waldstein": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Waldstein",
+    "Carmine": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Carmine",
+    "Orie": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Orie",
+    "Gordeau": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Gordeau",
+    "Merkava": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Merkava",
+    "Vatista": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Vatista",
+    "Seth": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Seth",
+    "Yuzuriha": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Yuzuriha",
+    "Hilda": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Hilda",
+    "Chaos": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Chaos",
+    "Nanase": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Nanase",
+    "Byakuya": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Byakuya",
+    "Phonon": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Phonon",
+    "Mika": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Mika",
+    "Wagner": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Wagner",
+    "Enkidu": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Enkidu",
+    "Londrekia": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Londrekia",
+    "Eltnum": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Eltnum",
+    "Akatsuki": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Akatsuki"
+}
 
 GAMES = {
     "P4AU": P4AU,
     "DBFZ": DBFZ,
     "GBVS": GBVS,
-    "BBTAG": BBTAG
+    "BBTAG": BBTAG,
+    "GGXRDREV2": GGXRDREV2,
+    "UNICLR": UNICLR
 }
