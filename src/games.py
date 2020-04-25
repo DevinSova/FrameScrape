@@ -86,7 +86,69 @@ GBVS = {
     "Zooey": "https://www.dustloop.com/wiki/index.php?title=GBVS/Zooey"
 }
 
-BBTAG = {}
+BBTAG = {
+    # BlazBlue #
+    "Ragna_the_Bloodedge": "https://www.dustloop.com/wiki/index.php?title=BBTag/Ragna_the_Bloodedge",
+    "Jin_Kisaragi": "https://www.dustloop.com/wiki/index.php?title=BBTag/Jin_Kisaragi",
+    "Noel_Vermillion": "https://www.dustloop.com/wiki/index.php?title=BBTag/Noel_Vermillion",
+    "Rachel_Alucard": "https://www.dustloop.com/wiki/index.php?title=BBTag/Rachel_Alucard",
+    "Iron_Tager": "https://www.dustloop.com/wiki/index.php?title=BBTag/Iron_Tager",
+    "Hakumen": "https://www.dustloop.com/wiki/index.php?title=BBTag/Hakumen",
+    "Nu-13": "https://www.dustloop.com/wiki/index.php?title=BBTag/Nu-13",
+    "Hazama": "https://www.dustloop.com/wiki/index.php?title=BBTag/Hazama",
+    "Makoto_Nanaya": "https://www.dustloop.com/wiki/index.php?title=BBTag/Makoto_Nanaya",
+    "Platinum_the_Trinity": "https://www.dustloop.com/wiki/index.php?title=BBTag/Platinum_the_Trinity",
+    "Izayoi": "https://www.dustloop.com/wiki/index.php?title=BBTag/Izayoi",
+    "Azrael": "https://www.dustloop.com/wiki/index.php?title=BBTag/Azrael",
+    "Celica_A._Mercury": "https://www.dustloop.com/wiki/index.php?title=BBTag/Celica_A._Mercury",
+    "Nine_the_Phantom": "https://www.dustloop.com/wiki/index.php?title=BBTag/Nine_the_Phantom",
+    "Naoto_Kurogane": "https://www.dustloop.com/wiki/index.php?title=BBTag/Naoto_Kurogane",
+    "Susano'o": "https://www.dustloop.com/wiki/index.php?title=BBTag/Susano'o",
+    "Es": "https://www.dustloop.com/wiki/index.php?title=BBTag/Es",
+    "Mai_Natsume": "https://www.dustloop.com/wiki/index.php?title=BBTag/Mai_Natsume",
+    "Jubei": "https://www.dustloop.com/wiki/index.php?title=BBTag/Jubei",
+
+    # Persona 4 #
+    "Yu_Narukami": "https://www.dustloop.com/wiki/index.php?title=BBTag/Yu_Narukami",
+    "Yosuke_Hanamura": "https://www.dustloop.com/wiki/index.php?title=BBTag/Yosuke_Hanamura",
+    "Chie_Satonaka": "https://www.dustloop.com/wiki/index.php?title=BBTag/Chie_Satonaka",
+    "Yukiko_Amagi": "https://www.dustloop.com/wiki/index.php?title=BBTag/Yukiko_Amagi",
+    "Kanji_Tatsumi": "https://www.dustloop.com/wiki/index.php?title=BBTag/Kanji_Tatsumi",
+    "Teddie": "https://www.dustloop.com/wiki/index.php?title=BBTag/Teddie",
+    "Naoto_Shirogane": "https://www.dustloop.com/wiki/index.php?title=BBTag/Naoto_Shirogane",
+    "Mitsuru_Kirijo": "https://www.dustloop.com/wiki/index.php?title=BBTag/Mitsuru_Kirijo",
+    "Akihiko_Sanada": "https://www.dustloop.com/wiki/index.php?title=BBTag/Akihiko_Sanada",
+    "Aegis": "https://www.dustloop.com/wiki/index.php?title=BBTag/Aegis",
+    "Elizabeth": "https://www.dustloop.com/wiki/index.php?title=BBTag/Elizabeth",
+    "Labrys": "https://www.dustloop.com/wiki/index.php?title=BBTag/Labrys",
+    "Tohru_Adachi": "https://www.dustloop.com/wiki/index.php?title=BBTag/Tohru_Adachi",
+
+    # Under Night In-Birth #
+    "Hyde": "https://www.dustloop.com/wiki/index.php?title=BBTag/Hyde",
+    "Linne": "https://www.dustloop.com/wiki/index.php?title=BBTag/Linne",
+    "Waldstein": "https://www.dustloop.com/wiki/index.php?title=BBTag/Waldstein",
+    "Carmine": "https://www.dustloop.com/wiki/index.php?title=BBTag/Carmine",
+    "Orie": "https://www.dustloop.com/wiki/index.php?title=BBTag/Orie",
+    "Gordeau": "https://www.dustloop.com/wiki/index.php?title=BBTag/Gordeau",
+    "Merkava": "https://www.dustloop.com/wiki/index.php?title=BBTag/Merkava",
+    "Vatista": "https://www.dustloop.com/wiki/index.php?title=BBTag/Vatista",
+    "Seth": "https://www.dustloop.com/wiki/index.php?title=BBTag/Seth",
+    "Yuzuriha": "https://www.dustloop.com/wiki/index.php?title=BBTag/Yuzuriha",
+    "Hilda": "https://www.dustloop.com/wiki/index.php?title=BBTag/Hilda",
+    "Mika": "https://www.dustloop.com/wiki/index.php?title=BBTag/Mika",
+    # RWBY #
+    "Ruby_Rose": "https://www.dustloop.com/wiki/index.php?title=BBTag/Ruby_Rose",
+    "Weiss_Schnee": "https://www.dustloop.com/wiki/index.php?title=BBTag/Weiss_Schnee",
+    "Blake_Belladonna": "https://www.dustloop.com/wiki/index.php?title=BBTag/Blake_Belladonna",
+    "Yang_Xiao_Long": "https://www.dustloop.com/wiki/index.php?title=BBTag/Yang_Xiao_Long",
+    "Neo_Politan": "https://www.dustloop.com/wiki/index.php?title=BBTag/Neo_Politan",
+
+    # Others #
+    "Heart_Aino": "https://www.dustloop.com/wiki/index.php?title=BBTag/Heart_Aino",
+    "Yumi": "https://www.dustloop.com/wiki/index.php?title=BBTag/Yumi",
+    "Akatsuki": "https://www.dustloop.com/wiki/index.php?title=BBTag/Akatsuki",
+    "Blitztank": "https://www.dustloop.com/wiki/index.php?title=BBTag/Blitztank"
+}
 
 GGXRD = {}
 
@@ -97,5 +159,6 @@ UNI = {}
 GAMES = {
     "P4AU": P4AU,
     "DBFZ": DBFZ,
-    "GBVS": GBVS
+    "GBVS": GBVS,
+    "BBTAG": BBTAG
 }

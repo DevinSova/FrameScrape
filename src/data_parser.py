@@ -5,11 +5,20 @@ import re
 def parse_table(content):
     moves = list()
 
-    # images = content[0].find("th")
+    # Work on the left column
+    left_column = content.find("th")
 
-    move_info = content.find("td")
+    move_name = None
+    move_input = None
 
-    rows = move_info.findAll("tr")
+    if content.find("big"):
+        move_name = content.find("big").text
+
+    if content.find("small"):
+        move_input = content.find("small").text
+
+    # Work on the rows
+    rows = content.find("td").findAll("tr")
 
     # Grab the headers
     headers = list()
@@ -32,11 +41,18 @@ def parse_table(content):
             stats = list()
             for stat in stats_or_description:
                 stats.append(stat.text.replace('\n', ''))
-            new_moves.append(dict(zip(headers, stats)))
+            new_move = dict()
+            if move_name is not None:
+                new_move["Name"] = move_name
+            if move_input is not None:
+                new_move["Comment"] = move_input
+            new_move.update(zip(headers, stats))
+            new_moves.append(new_move)
 
         # Check if it's a description row
         else:
             for new_move in new_moves:
+                # TODO: Fix \n at end and start of P4AU Descs
                 new_move["Description"] = re.sub('\n\n', '', stats_or_description[0].text)
             moves.extend(new_moves)
             new_moves = list()
