@@ -178,7 +178,44 @@ GGXRDREV2 = {
     "Zato-1": "https://www.dustloop.com/wiki/index.php?title=GGXRD-R2/Zato-1"
 }
 
-BBCF = {}
+BBCF = {
+    "Amane_Nishiki": "https://www.dustloop.com/wiki/index.php?title=BBCF/Amane_Nishiki",
+    "Arakune": "https://www.dustloop.com/wiki/index.php?title=BBCF/Arakune",
+    "Azrael": "https://www.dustloop.com/wiki/index.php?title=BBCF/Azrael",
+    "Bang_Shishigami": "https://www.dustloop.com/wiki/index.php?title=BBCF/Bang_Shishigami",
+    "Bullet": "https://www.dustloop.com/wiki/index.php?title=BBCF/Bullet",
+    "Carl_Clover": "https://www.dustloop.com/wiki/index.php?title=BBCF/Carl_Clover",
+    "Celica_A._Mercury": "https://www.dustloop.com/wiki/index.php?title=BBCF/Celica_A._Mercury",
+    "Es": "https://www.dustloop.com/wiki/index.php?title=BBCF/Es",
+    "Hakumen": "https://www.dustloop.com/wiki/index.php?title=BBCF/Hakumen",
+    "Hazama": "https://www.dustloop.com/wiki/index.php?title=BBCF/Hazama",
+    "Hibiki_Kohaku": "https://www.dustloop.com/wiki/index.php?title=BBCF/Hibiki_Kohaku",
+    "Izanami": "https://www.dustloop.com/wiki/index.php?title=BBCF/Izanami",
+    "Izayoi": "https://www.dustloop.com/wiki/index.php?title=BBCF/Izayoi",
+    "Jin_Kisaragi": "https://www.dustloop.com/wiki/index.php?title=BBCF/Jin_Kisaragi",
+    "Jubei": "https://www.dustloop.com/wiki/index.php?title=BBCF/Jubei",
+    "Kagura_Mutsuki": "https://www.dustloop.com/wiki/index.php?title=BBCF/Kagura_Mutsuki",
+    "Kokonoe": "https://www.dustloop.com/wiki/index.php?title=BBCF/Kokonoe",
+    "Litchi_Faye_Ling": "https://www.dustloop.com/wiki/index.php?title=BBCF/Litchi_Faye_Ling",
+    "Makoto_Nanaya": "https://www.dustloop.com/wiki/index.php?title=BBCF/Makoto_Nanaya",
+    "Mai_Natsume": "https://www.dustloop.com/wiki/index.php?title=BBCF/Mai_Natsume",
+    "Naoto_Kurogane": "https://www.dustloop.com/wiki/index.php?title=BBCF/Naoto_Kurogane",
+    "Nine_the_Phantom": "https://www.dustloop.com/wiki/index.php?title=BBCF/Nine_the_Phantom",
+    "Noel_Vermillion": "https://www.dustloop.com/wiki/index.php?title=BBCF/Noel_Vermillion",
+    "Platinum_the_Trinity": "https://www.dustloop.com/wiki/index.php?title=BBCF/Platinum_the_Trinity",
+    "Rachel_Alucard": "https://www.dustloop.com/wiki/index.php?title=BBCF/Rachel_Alucard",
+    "Ragna_the_Bloodedge": "https://www.dustloop.com/wiki/index.php?title=BBCF/Ragna_the_Bloodedge",
+    "Relius_Clover": "https://www.dustloop.com/wiki/index.php?title=BBCF/Relius_Clover",
+    "Susano'o": "https://www.dustloop.com/wiki/index.php?title=BBCF/Susano'o",
+    "Iron_Tager": "https://www.dustloop.com/wiki/index.php?title=BBCF/Iron_Tager",
+    "Taokaka": "https://www.dustloop.com/wiki/index.php?title=BBCF/Taokaka",
+    "Tsubaki_Yayoi": "https://www.dustloop.com/wiki/index.php?title=BBCF/Tsubaki_Yayoi",
+    "Yuuki_Terumi": "https://www.dustloop.com/wiki/index.php?title=BBCF/Yuuki_Terumi",
+    "Valkenhayn_R._Hellsing": "https://www.dustloop.com/wiki/index.php?title=BBCF/Valkenhayn_R._Hellsing",
+    "Lambda-11": "https://www.dustloop.com/wiki/index.php?title=BBCF/Lambda-11",
+    "Mu-12": "https://www.dustloop.com/wiki/index.php?title=BBCF/Mu-12",
+    "Nu-13": "https://www.dustloop.com/wiki/index.php?title=BBCF/Nu-13"
+}
 
 UNICLR = {
     "Hyde": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Hyde",
@@ -210,5 +247,6 @@ GAMES = {
     "GBVS": GBVS,
     "BBTAG": BBTAG,
     "GGXRDREV2": GGXRDREV2,
+    "BBCF": BBCF,
     "UNICLR": UNICLR
 }
