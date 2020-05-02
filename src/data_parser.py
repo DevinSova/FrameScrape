@@ -52,8 +52,7 @@ def parse_table(content):
         # Check if it's a description row
         else:
             for new_move in new_moves:
-                # TODO: Fix \n at end and start of P4AU Descs
-                new_move["Description"] = re.sub('\n\n', '', stats_or_description[0].text)
+                new_move["Description"] = re.sub('\n\n', '', stats_or_description[0].text).strip('\n')
             moves.extend(new_moves)
             new_moves = list()
 
