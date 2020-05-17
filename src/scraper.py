@@ -33,7 +33,7 @@ def scrape_page(game_name, character_name, link):
     # Parse each table for move(s)
     moves = list()
     for table in tables:
-        moves.extend(parse_table(table))
+        moves.append(parse_table(table))
 
     # Write to 'out' folder
     Path(Path.cwd(), f'out/{game_name}/').mkdir(parents=True, exist_ok=True)

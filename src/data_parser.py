@@ -3,19 +3,18 @@ import re
 
 
 def parse_table(content):
-    moves = list()
+    move = dict()
 
     # Work on the left column
     left_column = content.find("th")
 
-    move_name = None
-    move_input = None
-
     if content.find("big"):
-        move_name = content.find("big").text
+        move["Name"] = content.find("big").text
 
     if content.find("small"):
-        move_input = content.find("small").text
+        move["Comment"] = content.find("small").text
+
+    move["Versions"] = list()
 
     # Work on the rows
     rows = content.find("td").findAll("tr")
@@ -41,19 +40,15 @@ def parse_table(content):
             stats = list()
             for stat in stats_or_description:
                 stats.append(stat.text.replace('\n', ''))
-            new_move = dict()
-            if move_name is not None:
-                new_move["Name"] = move_name
-            if move_input is not None:
-                new_move["Comment"] = move_input
-            new_move.update(zip(headers, stats))
+            new_move = dict(zip(headers, stats))
             new_moves.append(new_move)
 
         # Check if it's a description row
+        # TODO: Should I just append all desc together or per version??å
         else:
             for new_move in new_moves:
                 new_move["Description"] = re.sub('\n\n', '', stats_or_description[0].text).strip('\n')
-            moves.extend(new_moves)
+            move["Versions"].extend(new_moves)
             new_moves = list()
 
         i += 1
@@ -61,7 +56,7 @@ def parse_table(content):
     # Flush moves that never found description
     if len(new_moves) != 0:
         for new_move in new_moves:
-            new_move["Description"] = "(No Description Available)."
-        moves.extend(new_moves)
+            new_move["Description"] = "(No Description Available)"
+        move["Versions"].extend(new_moves)
 
-    return moves
+    return move
