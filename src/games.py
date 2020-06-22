@@ -87,7 +87,7 @@ GBVS = {
 }
 
 BBTAG = {
-    # BlazBlue #
+    # Blaz Blue #
     "Ragna_the_Bloodedge": "https://www.dustloop.com/wiki/index.php?title=BBTag/Ragna_the_Bloodedge",
     "Jin_Kisaragi": "https://www.dustloop.com/wiki/index.php?title=BBTag/Jin_Kisaragi",
     "Noel_Vermillion": "https://www.dustloop.com/wiki/index.php?title=BBTag/Noel_Vermillion",

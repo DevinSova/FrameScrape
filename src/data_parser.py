@@ -8,15 +8,17 @@ def parse_move_table(content):
     # Work on the left column
     left_column = content.find("th")
 
-    if content.find("big"):
-        move["Name"] = content.find("big").text
+    if left_column.find("big"):
+        move["Name"] = left_column.find("big").text
 
-    if content.find("small"):
-        move["Comment"] = content.find("small").text
+    if left_column.find("small"):
+        move["Comment"] = left_column.find("small").text
 
-    move["Versions"] = list()
+    move["Pictures"] = [img["src"] for img in left_column.findAll("img")]
 
     # Work on the rows
+    move["Versions"] = list()
+
     rows = content.find("td").findAll("tr")
 
     # Grab the headers
