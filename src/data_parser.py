@@ -2,7 +2,7 @@ import json
 import re
 
 
-def parse_table(content):
+def parse_move_table(content):
     move = dict()
 
     # Work on the left column
