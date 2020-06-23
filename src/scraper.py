@@ -22,6 +22,7 @@ def scrape_page(game_name, character_name, link):
     # Try to load page
     try:
         page = requests.get(link)
+        domain = urlparse(link).scheme + "://" + urlparse(link).netloc
     except requests.RequestException:
         print(f"Unable to load page '{link}'")
         return
@@ -38,7 +39,7 @@ def scrape_page(game_name, character_name, link):
     output["Name"] = sections[0].find("th").text.replace('\n', '')
     output["Game"] = game_name
     try:
-        output["ImageURL"] = urlparse(link).netloc + sections[1].find("a")["href"]
+        output["ImageURL"] = domain + sections[1].find("a")["href"]
     except Exception:
         output["ImageURL"] = ""
 
@@ -51,7 +52,7 @@ def scrape_page(game_name, character_name, link):
     tables = content.find_all("table", {"class": "wikitable", "style": "text-align: center; border-collapse: collapse; margin: 0em;"}, recursive=True)
     moves = list()
     for table in tables:
-        moves.append(parse_move_table(table))
+        moves.append(parse_move_table(table, domain))
     output["Moves"] = moves
 
     # Write to 'out' folder

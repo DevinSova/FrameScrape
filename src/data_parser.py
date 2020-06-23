@@ -1,8 +1,9 @@
 import json
 import re
+from urllib.parse import urlparse
 
 
-def parse_move_table(content):
+def parse_move_table(content, domain):
     move = dict()
 
     # Work on the left column
@@ -14,7 +15,7 @@ def parse_move_table(content):
     if left_column.find("small"):
         move["Comment"] = left_column.find("small").text
 
-    move["Pictures"] = [img["src"] for img in left_column.findAll("img")]
+    move["ImageURLs"] = [domain + img["src"] for img in left_column.findAll("img")]
 
     # Work on the rows
     move["Versions"] = list()
@@ -46,7 +47,7 @@ def parse_move_table(content):
             new_moves.append(new_move)
 
         # Check if it's a description row
-        # TODO: Should I just append all desc together or per version??å
+        # TODO: Should I just append all desc together or per version??
         else:
             for new_move in new_moves:
                 new_move["Description"] = re.sub('\n\n', '', stats_or_description[0].text).strip('\n')
