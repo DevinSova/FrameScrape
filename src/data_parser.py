@@ -26,7 +26,7 @@ def parse_move_table(content, domain):
     headers = list()
     headers_html = rows[0].findAll("th")
     for header_html in headers_html:
-        headers.append(header_html.text.replace('\n', ''))
+        headers.append(header_html.find(text=True).replace('\n', ''))
 
     # Parse the rest of the rows
     new_moves = list()
