@@ -15,8 +15,6 @@ def parse_move_table(content, domain):
     if left_column.find("small"):
         move["Comment"] = left_column.find("small").text
 
-    move["ImageURLs"] = [domain + img["src"] for img in left_column.findAll("img")]
-
     # Work on the rows
     move["Versions"] = list()
 
@@ -29,7 +27,7 @@ def parse_move_table(content, domain):
         headers.append(header_html.find(text=True).replace('\n', ''))
 
     # Parse the rest of the rows
-    new_moves = list()
+    found_versions = list()
     i = 1
     while i < len(rows):
         stats_or_description = rows[i].findAll(["th", "td"])
@@ -43,23 +41,39 @@ def parse_move_table(content, domain):
             stats = list()
             for stat in stats_or_description:
                 stats.append(stat.text.replace('\n', ''))
-            new_move = dict(zip(headers, stats))
-            new_moves.append(new_move)
+            version = dict()
+            version["Attributes"] = dict(zip(headers, stats))
+            found_versions.append(version)
 
         # Check if it's a description row
-        # TODO: Should I just append all desc together or per version??
         else:
-            for new_move in new_moves:
-                new_move["Description"] = re.sub('\n\n', '', stats_or_description[0].text).strip('\n')
-            move["Versions"].extend(new_moves)
-            new_moves = list()
+            for version in found_versions:
+                version["Description"] = re.sub('\n\n', '', stats_or_description[0].text).strip('\n')
+            move["Versions"].extend(found_versions)
+            found_versions = list()
 
         i += 1
 
     # Flush moves that never found description
-    if len(new_moves) != 0:
-        for new_move in new_moves:
-            new_move["Description"] = "(No Description Available)"
-        move["Versions"].extend(new_moves)
+    if len(found_versions) != 0:
+        for version in found_versions:
+            version["Description"] = "(No Description Available)"
+        move["Versions"].extend(found_versions)
+
+    # Work on images
+    imageURLs = [domain + img["src"] for img in left_column.findAll("img")]
+
+    # Safety
+    if len(move["Versions"]) == 0:
+        pass
+
+    # if move count == image count map them
+    elif len(imageURLs) == len(move["Versions"]):
+        for i in range(len(move["Versions"])):
+            move["Versions"][i]["ImageURLs"] = [imageURLs[i]]
+
+    # else all go to last element
+    else:
+        move["Versions"][-1]["ImageURLs"] = imageURLs
 
     return move
