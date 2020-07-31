@@ -9,9 +9,15 @@ from urllib.parse import urlparse
 def scrape_game(game_name, pages):
     print(f"Processing {game_name} ...")
 
+    characters = list()
+
     # Parse each character page
     for character_name, link in pages.items():
-        scrape_page(game_name, character_name, link)
+        characters.append(scrape_page(game_name, character_name, link))
+
+    # Write to 'out' folder
+    with open(f'out/{game_name}.json', 'w') as fp:
+        fp.write(simplejson.dumps(characters, indent=4, sort_keys=False))
 
     print(f"finished.\n")
 
@@ -34,30 +40,30 @@ def scrape_page(game_name, character_name, link):
     content = soup.find("div", {"class": "mw-content-ltr"})
 
     # Parse character details
-    character = soup.find("table", {"class": "wikitable"})
-    sections = character.find_all("tr")
-    output["Name"] = sections[0].find("th").text.replace('\n', '')
-    output["Game"] = game_name
-    try:
-        output["ImageURL"] = domain + sections[1].find("a")["href"]
-    except Exception:
-        output["ImageURL"] = ""
+    character = soup.find("table", {"class": "wikitable"})\
 
-    try:
-        output["Attributes"] = sections[2].text
-    except Exception:
-        output["Attributes"] = ""
+    output["Name"] = character_name.replace('_', ' ')
+    output["Game"] = game_name
+
+    # Get Icon and Portrait image URLs
+    image = soup.find("img")["src"]
+    if "Icon" in image or "icon" in image:
+        output["IconURL"] = domain + image
+        output["PortraitURL"] = domain + soup.find_all("img")[1]["src"]
+    else:
+        output["IconURL"] = None
+        output["PortraitURL"] = domain + image
+
+    # TODO: Attributes
+    output["Attributes"] = None
 
     # Parse each table for move(s)
-    tables = content.find_all("table", {"class": "wikitable", "style": "text-align: center; border-collapse: collapse; margin: 0em;"}, recursive=True)
+    tables = content.find_all("table", {"class": "wikitable", "style": "text-align: center; border-radius: 4px; border: none; background-color: white; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); border-collapse: collapse; margin: 0em;"}, recursive=True)
     moves = list()
     for table in tables:
         moves.append(parse_move_table(table, domain))
     output["Moves"] = moves
 
-    # Write to 'out' folder
-    Path(Path.cwd(), f'out/{game_name}/').mkdir(parents=True, exist_ok=True)
-    with open(f'out/{game_name}/{character_name}.json', 'w') as fp:
-        fp.write(simplejson.dumps(output, indent=4, sort_keys=False))
-
     print(" done.")
+
+    return output

@@ -10,10 +10,10 @@ def parse_move_table(content, domain):
     left_column = content.find("th")
 
     if left_column.find("big"):
-        move["Name"] = left_column.find("big").text
+        move["Name"] = left_column.find("big").text.strip()
 
     if left_column.find("small"):
-        move["Comment"] = left_column.find("small").text
+        move["Comment"] = left_column.find("small").text.strip()
 
     # Work on the rows
     move["Versions"] = list()
@@ -24,7 +24,7 @@ def parse_move_table(content, domain):
     headers = list()
     headers_html = rows[0].findAll("th")
     for header_html in headers_html:
-        headers.append(header_html.find(text=True).replace('\n', ''))
+        headers.append(header_html.find(text=True).replace('\n', '').strip())
 
     # Parse the rest of the rows
     found_versions = list()
@@ -40,7 +40,7 @@ def parse_move_table(content, domain):
         elif len(stats_or_description) != 1:
             stats = list()
             for stat in stats_or_description:
-                stats.append(stat.text.replace('\n', ''))
+                stats.append(stat.text.replace('\n', '').strip())
             version = dict()
             version["Attributes"] = dict(zip(headers, stats))
             found_versions.append(version)
