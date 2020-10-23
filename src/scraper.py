@@ -1,7 +1,7 @@
 import requests
 import simplejson
 from bs4 import BeautifulSoup
-from data_parser import parse_move_table
+from parser import parse_move_table
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -46,13 +46,12 @@ def scrape_page(game_name, character_name, link):
     output["Game"] = game_name
 
     # Get Icon and Portrait image URLs
-    image = soup.find("img")["src"]
-    if "Icon" in image or "icon" in image:
-        output["IconURL"] = domain + image
-        output["PortraitURL"] = domain + soup.find_all("img")[1]["src"]
-    else:
-        output["IconURL"] = None
-        output["PortraitURL"] = domain + image
+    images = soup.find_all("img", limit=5)
+    output["IconURL"] = None
+    try:
+        output["PortraitURL"] = [domain + image["src"] for image in images if "portrait" in image["src"].lower()][0]
+    except Exception:
+        output["PortraitURL"] = None
 
     # TODO: Attributes
     output["Attributes"] = None
