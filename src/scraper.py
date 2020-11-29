@@ -12,8 +12,9 @@ def scrape_game(game_name, pages):
     characters = list()
 
     # Parse each character page
-    for character_name, link in pages.items():
-        characters.append(scrape_page(game_name, character_name, link))
+    for character_name, character_tuple in pages.items():
+        link, icon_url = character_tuple
+        characters.append(scrape_page(game_name, character_name, link, icon_url))
 
     # Write to 'out' folder
     with open(f'out/{game_name}.json', 'w') as fp:
@@ -22,7 +23,7 @@ def scrape_game(game_name, pages):
     print(f"finished.\n")
 
 
-def scrape_page(game_name, character_name, link):
+def scrape_page(game_name, character_name, link, icon_url):
     print(f"  {character_name}...", end='')
 
     # Try to load page
@@ -45,22 +46,22 @@ def scrape_page(game_name, character_name, link):
     output["Name"] = character_name.replace('_', ' ')
     output["Game"] = game_name
 
-    # Get Icon and Portrait image URLs
+    # Get Portrait and Icon URLs
     images = soup.find_all("img", limit=5)
-    output["IconURL"] = None
     try:
         output["PortraitURL"] = [domain + image["src"] for image in images if "portrait" in image["src"].lower()][0]
     except Exception:
         output["PortraitURL"] = None
 
-    # TODO: Attributes
-    output["Attributes"] = None
+    output["IconURL"] = icon_url
+    output["Attributes"] = None  # TODO: Attributes
 
     # Parse each table for move(s)
-    tables = content.find_all("table", {"class": "wikitable", "style": "text-align: center; border-radius: 4px; border: none; background-color: white; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); border-collapse: collapse; margin: 0em;"}, recursive=True)
+    tables = content.find_all("div", {"class": "attack-container"}, recursive=True)
     moves = list()
     for table in tables:
-        moves.append(parse_move_table(table, domain))
+        name = table.find_previous_sibling("h3").find("span", {"class": "mw-headline"}).text
+        moves.append(parse_move_table(table, domain, name))
     output["Moves"] = moves
 
     print(" done.")
