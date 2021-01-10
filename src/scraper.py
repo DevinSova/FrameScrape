@@ -54,7 +54,6 @@ def scrape_page(game_name, character_name, link, icon_url):
         output["PortraitURL"] = None
 
     output["IconURL"] = icon_url
-    output["Attributes"] = None  # TODO: Attributes
 
     # Parse each table for move(s)
     tables = content.find_all("div", {"class": "attack-container"}, recursive=True)

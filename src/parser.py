@@ -7,7 +7,7 @@ def parse_move_table(content, domain, name):
     move = dict()
 
     move["Name"] = name
-    # move["Input"] = None
+    # move["Input"] = None //TODO
 
     attack_gallery = content.find("div", {"class": "attack-gallery"})
     attack_info = content.find("div", {"class": "attack-info"})

@@ -25,50 +25,51 @@ P4AU = {
     "Yukiko_Amagi": (f"{HOST}/index.php?title=P4AU/Yukiko_Amagi", f"{HOST}/images/thumb/a/ae/P4AU_Yukiko_portrait.png/80px-P4AU_Yukiko_portrait.png")
     }
 
-""" DBFZ = {
-    "Android_16": (f"{HOST}/index.php?title=DBFZ/Android_16",
-    "Android_17": (f"{HOST}/index.php?title=DBFZ/Android_17",
-    "Android_18": (f"{HOST}/index.php?title=DBFZ/Android_18",
-    "Android 21": (f"{HOST}/index.php?title=DBFZ/Android_21",
-    "Bardock": (f"{HOST}/index.php?title=DBFZ/Bardock",
-    "Beerus": (f"{HOST}/index.php?title=DBFZ/Beerus",
-    "Broley": (f"{HOST}/index.php?title=DBFZ/Broly",
-    "DBS_Broley": (f"{HOST}/index.php?title=DBFZ/DBS_Broly",
-    "Captain_Ginyu": (f"{HOST}/index.php?title=DBFZ/Captain_Ginyu",
-    "Cell": (f"{HOST}/index.php?title=DBFZ/Cell",
-    "Cooler": (f"{HOST}/index.php?title=DBFZ/Cooler",
-    "Frieza": (f"{HOST}/index.php?title=DBFZ/Frieza",
-    "SSB_Gogeta": (f"{HOST}/index.php?title=DBFZ/SSB_Gogeta",
-    "Teen_Gohan": (f"{HOST}/index.php?title=DBFZ/Teen_Gohan",
-    "Adult_Gohan": (f"{HOST}/index.php?title=DBFZ/Adult_Gohan",
-    "Goku": (f"{HOST}/index.php?title=DBFZ/Goku",
-    "SS_Goku": (f"{HOST}/index.php?title=DBFZ/SS_Goku",
-    "SSB_Goku": (f"{HOST}/index.php?title=DBFZ/SSB_Goku",
-    "UI_Goku": (f"{HOST}/index.php?title=DBFZ/UI_Goku",
-    "GT_Goku": (f"{HOST}/index.php?title=DBFZ/GT_Goku",
-    "Goku_Black": (f"{HOST}/index.php?title=DBFZ/Goku_Black",
-    "Gotenks": (f"{HOST}/index.php?title=DBFZ/Gotenks",
-    "Hit": (f"{HOST}/index.php?title=DBFZ/Hit",
-    "Janemba": (f"{HOST}/index.php?title=DBFZ/Janemba",
-    "Jiren": (f"{HOST}/index.php?title=DBFZ/Jiren",
-    "Kefla": (f"{HOST}/index.php?title=DBFZ/Kefla",
-    "Kid_Buu": (f"{HOST}/index.php?title=DBFZ/Kid_Buu",
-    "Krilin": (f"{HOST}/index.php?title=DBFZ/Krillin",
-    "Majin_Buu": (f"{HOST}/index.php?title=DBFZ/Majin_Buu",
-    "Nappa": (f"{HOST}/index.php?title=DBFZ/Nappa",
-    "Piccolo": (f"{HOST}/index.php?title=DBFZ/Piccolo",
-    "Tien": (f"{HOST}/index.php?title=DBFZ/Tien",
-    "Trunks": (f"{HOST}/index.php?title=DBFZ/Trunks",
-    "Vegeta": (f"{HOST}/index.php?title=DBFZ/Vegeta",
-    "SS_Vegeta": (f"{HOST}/index.php?title=DBFZ/SS_Vegeta",
-    "SSB_Vegeta": (f"{HOST}/index.php?title=DBFZ/SSB_Vegeta",
-    "SSB_Vegito": (f"{HOST}/index.php?title=DBFZ/SSB_Vegito",
-    "Videl": (f"{HOST}/index.php?title=DBFZ/Videl",
-    "Yamcha": (f"{HOST}/index.php?title=DBFZ/Yamcha",
-    "Fused_Zamasu": (f"{HOST}/index.php?title=DBFZ/Fused_Zamasu"
+DBFZ = {
+    "Android_16": (f"{HOST}/index.php?title=DBFZ/Android_16", f"{HOST}/images/thumb/6/6e/DBFZ_Android_16_Icon.png/81px-DBFZ_Android_16_Icon.png"),
+    "Android_17": (f"{HOST}/index.php?title=DBFZ/Android_17", f"{HOST}/images/thumb/4/40/DBFZ_Android_17_Icon.png/81px-DBFZ_Android_17_Icon.png"),
+    "Android_18": (f"{HOST}/index.php?title=DBFZ/Android_18", f"{HOST}/images/thumb/a/ac/DBFZ_Android_18_Icon.png/81px-DBFZ_Android_18_Icon.png"),
+    "Android 21": (f"{HOST}/index.php?title=DBFZ/Android_21", f"{HOST}/images/thumb/5/5f/DBFZ_Android_21_Icon.png/81px-DBFZ_Android_21_Icon.png"),
+    "Bardock": (f"{HOST}/index.php?title=DBFZ/Bardock", f"{HOST}/images/thumb/3/31/DBFZ_Bardock_Icon.png/81px-DBFZ_Bardock_Icon.png"),
+    "Beerus": (f"{HOST}/index.php?title=DBFZ/Beerus", f"{HOST}/images/thumb/4/42/DBFZ_Beerus_Icon.png/81px-DBFZ_Beerus_Icon.png"),
+    "Broley": (f"{HOST}/index.php?title=DBFZ/Broly", f"{HOST}/images/thumb/8/8f/DBFZ_Broly_Icon.png/81px-DBFZ_Broly_Icon.png"),
+    "DBS_Broley": (f"{HOST}/index.php?title=DBFZ/DBS_Broly", f"{HOST}/wiki/images/thumb/0/0e/DBFZ_DBS_Broly_Icon.png/80px-DBFZ_DBS_Broly_Icon.png"),
+    "Captain_Ginyu": (f"{HOST}/index.php?title=DBFZ/Captain_Ginyu", f"{HOST}/images/thumb/5/59/DBFZ_Captain_Ginyu_Icon.png/81px-DBFZ_Captain_Ginyu_Icon.png"),
+    "Cell": (f"{HOST}/index.php?title=DBFZ/Cell", f"{HOST}/images/thumb/7/75/DBFZ_Cell_Icon.png/81px-DBFZ_Cell_Icon.png"),
+    "Cooler": (f"{HOST}/index.php?title=DBFZ/Cooler", f"{HOST}/images/thumb/b/b3/DBFZ_Cooler_Icon.png/81px-DBFZ_Cooler_Icon.png"),
+    "Frieza": (f"{HOST}/index.php?title=DBFZ/Frieza", f"{HOST}/images/thumb/a/a0/DBFZ_Frieza_Icon.png/81px-DBFZ_Frieza_Icon.png"),
+    "SSB_Gogeta": (f"{HOST}/index.php?title=DBFZ/SSB_Gogeta", f"{HOST}/images/thumb/1/1a/DBFZ_SSB_Gogeta_Icon.png/80px-DBFZ_SSB_Gogeta_Icon.png"),
+    "Teen_Gohan": (f"{HOST}/index.php?title=DBFZ/Teen_Gohan", f"{HOST}/images/thumb/2/2b/DBFZ_Teen_Gohan_Icon.png/81px-DBFZ_Teen_Gohan_Icon.png"),
+    "Adult_Gohan": (f"{HOST}/index.php?title=DBFZ/Adult_Gohan", f"{HOST}/images/thumb/1/14/DBFZ_Adult_Gohan_Icon.png/81px-DBFZ_Adult_Gohan_Icon.png"),
+    "Goku": (f"{HOST}/index.php?title=DBFZ/Goku", f"{HOST}/images/thumb/b/bb/DBFZ_Goku_Icon.png/81px-DBFZ_Goku_Icon.png"),
+    "SS_Goku": (f"{HOST}/index.php?title=DBFZ/SS_Goku", f"{HOST}/images/thumb/8/87/DBFZ_SS_Goku_Icon.png/81px-DBFZ_SS_Goku_Icon.png"),
+    "SSB_Goku": (f"{HOST}/index.php?title=DBFZ/SSB_Goku", f"{HOST}/images/thumb/9/94/DBFZ_SSB_Goku_Icon.png/81px-DBFZ_SSB_Goku_Icon.png"),
+    "UI_Goku": (f"{HOST}/index.php?title=DBFZ/UI_Goku", f"{HOST}/images/thumb/9/90/DBFZ_UI_Goku_Icon.png/80px-DBFZ_UI_Goku_Icon.png"),
+    "GT_Goku": (f"{HOST}/index.php?title=DBFZ/GT_Goku", f"{HOST}/images/thumb/0/01/DBFZ_GT_Goku_Icon.png/81px-DBFZ_GT_Goku_Icon.png"),
+    "Goku_Black": (f"{HOST}/index.php?title=DBFZ/Goku_Black", f"{HOST}/images/thumb/a/a3/DBFZ_Goku_Black_Icon.png/81px-DBFZ_Goku_Black_Icon.png"),
+    "Gotenks": (f"{HOST}/index.php?title=DBFZ/Gotenks", f"{HOST}/images/thumb/f/f2/DBFZ_Gotenks_Icon.png/81px-DBFZ_Gotenks_Icon.png"),
+    "Hit": (f"{HOST}/index.php?title=DBFZ/Hit", f"{HOST}/images/thumb/d/dd/DBFZ_Hit_Icon.png/81px-DBFZ_Hit_Icon.png"),
+    "Janemba": (f"{HOST}/index.php?title=DBFZ/Janemba", f"{HOST}/images/thumb/a/a3/DBFZ_Janemba_Icon.png/80px-DBFZ_Janemba_Icon.png"),
+    "Jiren": (f"{HOST}/index.php?title=DBFZ/Jiren", f"{HOST}/images/thumb/c/c7/DBFZ_Jiren_Icon.png/81px-DBFZ_Jiren_Icon.png"),
+    "Kefla": (f"{HOST}/index.php?title=DBFZ/Kefla", f"{HOST}/images/thumb/5/5d/DBFZ_Kefla_Icon.png/80px-DBFZ_Kefla_Icon.png"),
+    "Kid_Buu": (f"{HOST}/index.php?title=DBFZ/Kid_Buu", f"{HOST}/images/thumb/a/a4/DBFZ_Kid_Buu_Icon.png/81px-DBFZ_Kid_Buu_Icon.png"),
+    "Krilin": (f"{HOST}/index.php?title=DBFZ/Krillin", f"{HOST}/images/thumb/5/51/DBFZ_Krillin_Icon.png/81px-DBFZ_Krillin_Icon.png"),
+    "Majin_Buu": (f"{HOST}/index.php?title=DBFZ/Majin_Buu", f"{HOST}/images/thumb/d/d0/DBFZ_Majin_Buu_Icon.png/81px-DBFZ_Majin_Buu_Icon.png"),
+    "Master_Roshi": (f"{HOST}/index.php?title=DBFZ/Master_Roshi", f"{HOST}/images/thumb/8/8d/DBFZ_Master_Roshi_Icon.png/80px-DBFZ_Master_Roshi_Icon.png"),
+    "Nappa": (f"{HOST}/index.php?title=DBFZ/Nappa", f"{HOST}/images/thumb/0/00/DBFZ_Nappa_Icon.png/81px-DBFZ_Nappa_Icon.png"),
+    "Piccolo": (f"{HOST}/index.php?title=DBFZ/Piccolo", f"{HOST}/images/thumb/c/c8/DBFZ_Piccolo_Icon.png/81px-DBFZ_Piccolo_Icon.png"),
+    "Tien": (f"{HOST}/index.php?title=DBFZ/Tien", f"{HOST}/images/thumb/8/85/DBFZ_Tien_Icon.png/81px-DBFZ_Tien_Icon.png"),
+    "Trunks": (f"{HOST}/index.php?title=DBFZ/Trunks", f"{HOST}/images/thumb/b/b8/DBFZ_Trunks_Icon.png/81px-DBFZ_Trunks_Icon.png"),
+    "Vegeta": (f"{HOST}/index.php?title=DBFZ/Vegeta", f"{HOST}/images/thumb/6/66/DBFZ_Vegeta_Icon.png/81px-DBFZ_Vegeta_Icon.png"),
+    "SS_Vegeta": (f"{HOST}/index.php?title=DBFZ/SS_Vegeta", f"{HOST}/images/thumb/8/8d/DBFZ_SS_Vegeta_Icon.png/81px-DBFZ_SS_Vegeta_Icon.png"),
+    "SSB_Vegeta": (f"{HOST}/index.php?title=DBFZ/SSB_Vegeta", f"{HOST}/images/thumb/9/92/DBFZ_SSB_Vegeta_Icon.png/81px-DBFZ_SSB_Vegeta_Icon.png"),
+    "SSB_Vegito": (f"{HOST}/index.php?title=DBFZ/SSB_Vegito", f"{HOST}/images/thumb/8/89/DBFZ_SSB_Vegito_Icon.png/81px-DBFZ_SSB_Vegito_Icon.png"),
+    "Videl": (f"{HOST}/index.php?title=DBFZ/Videl", f"{HOST}/images/thumb/0/0d/DBFZ_Videl_Icon.png/81px-DBFZ_Videl_Icon.png"),
+    "Yamcha": (f"{HOST}/index.php?title=DBFZ/Yamcha", f"{HOST}/images/thumb/0/08/DBFZ_Yamcha_Icon.png/81px-DBFZ_Yamcha_Icon.png"),
+    "Fused_Zamasu": (f"{HOST}/index.php?title=DBFZ/Fused_Zamasu", f"{HOST}/images/thumb/1/17/DBFZ_Fused_Zamasu_Icon.png/81px-DBFZ_Fused_Zamasu_Icon.png"),
 }
 
-GBVS = {
+"""GBVS = {
     "Beelzebub": (f"{HOST}/index.php?title=GBVS/Beelzebub",
     "Belial": (f"{HOST}/index.php?title=GBVS/Belial",
     "Charlotta": (f"{HOST}/index.php?title=GBVS/Charlotta",
@@ -123,7 +124,7 @@ BBTAG = {
     "Aegis": (f"{HOST}/index.php?title=BBTag/Aegis",
     "Elizabeth": (f"{HOST}/index.php?title=BBTag/Elizabeth",
     "Labrys": (f"{HOST}/index.php?title=BBTag/Labrys",
-    "Tohru_Adachi": (f"{HOST}/index.php?title=BBTag/Tohru_Adachi",
+    "Tohru_Adachi": (f"{HOST}/index.php?title=BBTag/Tohru_Adachi", 
 
     # Under Night In-Birth #
     "Hyde": (f"{HOST}/index.php?title=BBTag/Hyde",
@@ -253,4 +254,7 @@ GAMES = {
     "UNICLR": UNICLR
 } """
 
-GAMES = {"P4AU": P4AU}
+GAMES = {
+    "P4AU": P4AU,
+    "DBFZ": DBFZ
+}
