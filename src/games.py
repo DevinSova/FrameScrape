@@ -69,27 +69,29 @@ DBFZ = {
     "Fused_Zamasu": (f"{HOST}/index.php?title=DBFZ/Fused_Zamasu", f"{HOST}/images/thumb/1/17/DBFZ_Fused_Zamasu_Icon.png/81px-DBFZ_Fused_Zamasu_Icon.png"),
 }
 
-"""GBVS = {
-    "Beelzebub": (f"{HOST}/index.php?title=GBVS/Beelzebub",
-    "Belial": (f"{HOST}/index.php?title=GBVS/Belial",
-    "Charlotta": (f"{HOST}/index.php?title=GBVS/Charlotta",
-    "Djeeta": (f"{HOST}/index.php?title=GBVS/Djeeta",
-    "Ferry": (f"{HOST}/index.php?title=GBVS/Ferry",
-    "Gran": (f"{HOST}/index.php?title=GBVS/Gran",
-    "Katalina": (f"{HOST}/index.php?title=GBVS/Katalina",
-    "Ladiva": (f"{HOST}/index.php?title=GBVS/Ladiva",
-    "Lancelot": (f"{HOST}/index.php?title=GBVS/Lancelot",
-    "Lowain": (f"{HOST}/index.php?title=GBVS/Lowain",
-    "Metera": (f"{HOST}/index.php?title=GBVS/Metera",
-    "Narmaya": (f"{HOST}/index.php?title=GBVS/Narmaya",
-    "Percival": (f"{HOST}/index.php?title=GBVS/Percival",
-    "Soriz": (f"{HOST}/index.php?title=GBVS/Soriz",
-    "Vaseraga": (f"{HOST}/index.php?title=GBVS/Vaseraga",
-    "Zeta": (f"{HOST}/index.php?title=GBVS/Zeta",
-    "Zooey": (f"{HOST}/index.php?title=GBVS/Zooey"
+GBVS = {
+    "Beelzebub": (f"{HOST}/index.php?title=GBVS/Beelzebub", f"{HOST}/images/f/fd/GBVS_Beelzebub_Icon.png"),
+    "Belial": (f"{HOST}/index.php?title=GBVS/Belial", f"{HOST}/images/b/bb/GBVS_Belial_Icon.png"),
+    "Cagliostro": (f"{HOST}/index.php?title=GBVS/Cagliostro", f"{HOST}/images/c/c7/GBVS_Cagliostro_Icon.png"),
+    "Charlotta": (f"{HOST}/index.php?title=GBVS/Charlotta", f"{HOST}/images/4/46/GBVS_Charlotta_Icon.png"),
+    "Djeeta": (f"{HOST}/index.php?title=GBVS/Djeeta", f"{HOST}/images/1/15/GBVS_Djeeta_Icon.png"),
+    "Ferry": (f"{HOST}/index.php?title=GBVS/Ferry", f"{HOST}/images/a/a0/GBVS_Ferry_Icon.png"),
+    "Gran": (f"{HOST}/index.php?title=GBVS/Gran", f"{HOST}/images/2/21/GBVS_Gran_Icon.png"),
+    "Katalina": (f"{HOST}/index.php?title=GBVS/Katalina", f"{HOST}/images/a/aa/GBVS_Katalina_Icon.png"),
+    "Ladiva": (f"{HOST}/index.php?title=GBVS/Ladiva", f"{HOST}/images/5/52/GBVS_Ladiva_Icon.png"),
+    "Lancelot": (f"{HOST}/index.php?title=GBVS/Lancelot", f"{HOST}/images/2/26/GBVS_Lancelot_Icon.png"),
+    "Lowain": (f"{HOST}/index.php?title=GBVS/Lowain", f"{HOST}/images/3/3c/GBVS_Lowain_Icon.png"),
+    "Metera": (f"{HOST}/index.php?title=GBVS/Metera", f"{HOST}/images/5/50/GBVS_Metera_Icon.png"),
+    "Narmaya": (f"{HOST}/index.php?title=GBVS/Narmaya", f"{HOST}/images/5/5e/GBVS_Narmaya_Icon.png"),
+    "Percival": (f"{HOST}/index.php?title=GBVS/Percival", f"{HOST}/images/3/3d/GBVS_Percival_Icon.png"),
+    "Soriz": (f"{HOST}/index.php?title=GBVS/Soriz", f"{HOST}/images/7/7d/GBVS_Soriz_Icon.png"),
+    "Vaseraga": (f"{HOST}/index.php?title=GBVS/Vaseraga", f"{HOST}/images/5/57/GBVS_Vaseraga_Icon.png"),
+    "Yuel": (f"{HOST}/index.php?title=GBVS/Yuel", f"{HOST}/images/4/45/GBVS_Yuel_Icon.png"),
+    "Zeta": (f"{HOST}/index.php?title=GBVS/Zeta", f"{HOST}/images/f/f0/GBVS_Zeta_Icon.png"),
+    "Zooey": (f"{HOST}/index.php?title=GBVS/Zooey" f"{HOST}/images/f/f5/GBVS_Zooey_Icon.png"),
 }
 
-BBTAG = {
+"""BBTAG = {
     # Blaz Blue #
     "Ragna_the_Bloodedge": (f"{HOST}/index.php?title=BBTag/Ragna_the_Bloodedge",
     "Jin_Kisaragi": (f"{HOST}/index.php?title=BBTag/Jin_Kisaragi",
