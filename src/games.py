@@ -156,32 +156,32 @@ BBTAG = {
     "Blitztank": (f"{HOST}/index.php?title=BBTag/Blitztank" f"{HOST}/images/thumb/7/70/BBTag_Blitztank_Icon.png/90px-BBTag_Blitztank_Icon.png")
 }
 
-"""GGXRDREV2 = {
-    "Answer": (f"{HOST}/index.php?title=GGXRD-R2/Answer",
-    "Axl_Low": (f"{HOST}/index.php?title=GGXRD-R2/Axl_Low",
-    "Baiken": (f"{HOST}/index.php?title=GGXRD-R2/Baiken",
-    "Bedman": (f"{HOST}/index.php?title=GGXRD-R2/Bedman",
-    "Chipp_Zanuff": (f"{HOST}/index.php?title=GGXRD-R2/Chipp_Zanuff",
-    "Dizzy": (f"{HOST}/index.php?title=GGXRD-R2/Dizzy",
-    "Elphelt_Valentine": (f"{HOST}/index.php?title=GGXRD-R2/Elphelt_Valentine",
-    "Faust": (f"{HOST}/index.php?title=GGXRD-R2/Faust",
-    "I-No": (f"{HOST}/index.php?title=GGXRD-R2/I-No",
-    "Jack-O'": (f"{HOST}/index.php?title=GGXRD-R2/Jack-O'",
-    "Jam_Kuradoberi": (f"{HOST}/index.php?title=GGXRD-R2/Jam_Kuradoberi",
-    "Johnny": (f"{HOST}/index.php?title=GGXRD-R2/Johnny",
-    "Kum_Haehyun": (f"{HOST}/index.php?title=GGXRD-R2/Kum_Haehyun",
-    "Ky_Kiske": (f"{HOST}/index.php?title=GGXRD-R2/Ky_Kiske",
-    "Leo_Whitefang": (f"{HOST}/index.php?title=GGXRD-R2/Leo_Whitefang",
-    "May": (f"{HOST}/index.php?title=GGXRD-R2/May",
-    "Millia_Rage": (f"{HOST}/index.php?title=GGXRD-R2/Millia_Rage",
-    "Potemkin": (f"{HOST}/index.php?title=GGXRD-R2/Potemkin",
-    "Ramlethal_Valentine": (f"{HOST}/index.php?title=GGXRD-R2/Ramlethal_Valentine",
-    "Raven": (f"{HOST}/index.php?title=GGXRD-R2/Raven",
-    "Sin_Kiske": (f"{HOST}/index.php?title=GGXRD-R2/Sin_Kiske",
-    "Slayer": (f"{HOST}/index.php?title=GGXRD-R2/Slayer",
-    "Sol_Badguy": (f"{HOST}/index.php?title=GGXRD-R2/Sol_Badguy",
-    "Venom": (f"{HOST}/index.php?title=GGXRD-R2/Venom",
-    "Zato-1": (f"{HOST}/index.php?title=GGXRD-R2/Zato-1"
+GGXRDREV2 = {
+    "Answer": (f"{HOST}/index.php?title=GGXRD-R2/Answer", f"{HOST}/images/thumb/1/13/GGXRD-R2_Answer_Icon.png/48px-GGXRD-R2_Answer_Icon.png"),
+    "Axl_Low": (f"{HOST}/index.php?title=GGXRD-R2/Axl_Low", f"{HOST}/images/thumb/3/31/GGXRD-R2_Axl_Low_Icon.png/48px-GGXRD-R2_Axl_Low_Icon.png"),
+    "Baiken": (f"{HOST}/index.php?title=GGXRD-R2/Baiken", f"{HOST}/images/thumb/0/0e/GGXRD-R2_Baiken_Icon.png/48px-GGXRD-R2_Baiken_Icon.png"),
+    "Bedman": (f"{HOST}/index.php?title=GGXRD-R2/Bedman", f"{HOST}/images/thumb/7/71/GGXRD-R2_Bedman_Icon.png/48px-GGXRD-R2_Bedman_Icon.png"),
+    "Chipp_Zanuff": (f"{HOST}/index.php?title=GGXRD-R2/Chipp_Zanuff", f"{HOST}/images/thumb/2/2e/GGXRD-R2_Chipp_Zanuff_Icon.png/48px-GGXRD-R2_Chipp_Zanuff_Icon.png"),
+    "Dizzy": (f"{HOST}/index.php?title=GGXRD-R2/Dizzy", f"{HOST}/images/thumb/0/02/GGXRD-R2_Dizzy_Icon.png/48px-GGXRD-R2_Dizzy_Icon.png"),
+    "Elphelt_Valentine": (f"{HOST}/index.php?title=GGXRD-R2/Elphelt_Valentine", f"{HOST}images/thumb/4/47/GGXRD-R2_Elphelt_Valentine_Icon.png/48px-GGXRD-R2_Elphelt_Valentine_Icon.png"),
+    "Faust": (f"{HOST}/index.php?title=GGXRD-R2/Faust", f"{HOST}/images/thumb/5/54/GGXRD-R2_Faust_Icon.png/48px-GGXRD-R2_Faust_Icon.png"),
+    "I-No": (f"{HOST}/index.php?title=GGXRD-R2/I-No", f"{HOST}/images/thumb/2/27/GGXRD-R2_I-No_Icon.png/48px-GGXRD-R2_I-No_Icon.png"),
+    "Jack-O'": (f"{HOST}/index.php?title=GGXRD-R2/Jack-O'", f"{HOST}/images/thumb/9/9e/GGXRD-R2_Jack-O_Icon.png/48px-GGXRD-R2_Jack-O_Icon.png"),
+    "Jam_Kuradoberi": (f"{HOST}/index.php?title=GGXRD-R2/Jam_Kuradoberi", f"{HOST}/images/thumb/7/7f/GGXRD-R2_Jam_Kuradoberi_Icon.png/48px-GGXRD-R2_Jam_Kuradoberi_Icon.png"),
+    "Johnny": (f"{HOST}/index.php?title=GGXRD-R2/Johnny", f"{HOST}/images/thumb/0/0d/GGXRD-R2_Johnny_Icon.png/48px-GGXRD-R2_Johnny_Icon.png"),
+    "Kum_Haehyun": (f"{HOST}/index.php?title=GGXRD-R2/Kum_Haehyun", f"{HOST}/images/thumb/d/d8/GGXRD-R2_Kum_Haehyun_Icon.png/48px-GGXRD-R2_Kum_Haehyun_Icon.png"),
+    "Ky_Kiske": (f"{HOST}/index.php?title=GGXRD-R2/Ky_Kiske", f"{HOST}/images/thumb/6/65/GGXRD-R2_Ky_Kiske_Icon.png/48px-GGXRD-R2_Ky_Kiske_Icon.png"),
+    "Leo_Whitefang": (f"{HOST}/index.php?title=GGXRD-R2/Leo_Whitefang", f"{HOST}/images/thumb/c/c4/GGXRD-R2_Leo_Whitefang_Icon.png/48px-GGXRD-R2_Leo_Whitefang_Icon.png"),
+    "May": (f"{HOST}/index.php?title=GGXRD-R2/May", f"{HOST}/images/thumb/b/be/GGXRD-R2_May_Icon.png/48px-GGXRD-R2_May_Icon.png"),
+    "Millia_Rage": (f"{HOST}/index.php?title=GGXRD-R2/Millia_Rage", f"{HOST}/images/thumb/c/ce/GGXRD-R2_Millia_Rage_Icon.png/48px-GGXRD-R2_Millia_Rage_Icon.png"),
+    "Potemkin": (f"{HOST}/index.php?title=GGXRD-R2/Potemkin", f"{HOST}/images/thumb/d/d0/GGXRD-R2_Potemkin_Icon.png/48px-GGXRD-R2_Potemkin_Icon.png"),
+    "Ramlethal_Valentine": (f"{HOST}/index.php?title=GGXRD-R2/Ramlethal_Valentine", f"{HOST}/images/thumb/3/39/GGXRD-R2_Ramlethal_Valentine_Icon.png/48px-GGXRD-R2_Ramlethal_Valentine_Icon.png"),
+    "Raven": (f"{HOST}/index.php?title=GGXRD-R2/Raven", f"{HOST}/images/thumb/5/5d/GGXRD-R2_Raven_Icon.png/48px-GGXRD-R2_Raven_Icon.png"),
+    "Sin_Kiske": (f"{HOST}/index.php?title=GGXRD-R2/Sin_Kiske", f"{HOST}/images/thumb/0/06/GGXRD-R2_Sin_Kiske_Icon.png/48px-GGXRD-R2_Sin_Kiske_Icon.png"),
+    "Slayer": (f"{HOST}/index.php?title=GGXRD-R2/Slayer", f"{HOST}/images/thumb/6/63/GGXRD-R2_Slayer_Icon.png/48px-GGXRD-R2_Slayer_Icon.png"),
+    "Sol_Badguy": (f"{HOST}/index.php?title=GGXRD-R2/Sol_Badguy", f"{HOST}/images/thumb/7/75/GGXRD-R2_Sol_Badguy_Icon.png/48px-GGXRD-R2_Sol_Badguy_Icon.png"),
+    "Venom": (f"{HOST}/index.php?title=GGXRD-R2/Venom", f"{HOST}/images/thumb/5/50/GGXRD-R2_Venom_Icon.png/48px-GGXRD-R2_Venom_Icon.png"),
+    "Zato-1": (f"{HOST}/index.php?title=GGXRD-R2/Zato-1", f"{HOST}/images/thumb/a/a5/GGXRD-R2_Zato-1_Icon.png/48px-GGXRD-R2_Zato-1_Icon.png")
 }
 
 BBCF = {
@@ -223,7 +223,7 @@ BBCF = {
     "Nu-13": (f"{HOST}/index.php?title=BBCF/Nu-13"
 }
 
-UNICLR = {
+"""UNICLR = {
     "Hyde": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Hyde",
     "Linne": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Linne",
     "Waldstein": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Waldstein",
