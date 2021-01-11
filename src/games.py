@@ -184,7 +184,7 @@ GGXRDREV2 = {
     "Zato-1": (f"{HOST}/index.php?title=GGXRD-R2/Zato-1", f"{HOST}/images/thumb/a/a5/GGXRD-R2_Zato-1_Icon.png/48px-GGXRD-R2_Zato-1_Icon.png")
 }
 
-BBCF = {
+"""BBCF = {
     "Amane_Nishiki": (f"{HOST}/index.php?title=BBCF/Amane_Nishiki",
     "Arakune": (f"{HOST}/index.php?title=BBCF/Arakune",
     "Azrael": (f"{HOST}/index.php?title=BBCF/Azrael",
