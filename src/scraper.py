@@ -59,7 +59,13 @@ def scrape_page(game_name, character_name, link, icon_url):
     tables = content.find_all("div", {"class": "attack-container"}, recursive=True)
     moves = list()
     for table in tables:
-        name = table.find_previous_sibling("h3").find("span", {"class": "mw-headline"}).text
+        try:
+            name = table.find_previous_sibling("h3").find("span", {"class": "mw-headline"}).text
+        except AttributeError:
+            try:
+                name = table.find_previous("h3").find("span", {"class": "mw-headline"}).text
+            except AttributeError:
+                name = table.find_next("h3").find("span", {"class": "mw-headline"}).text
         moves.append(parse_move_table(table, domain, name))
     output["Moves"] = moves
 

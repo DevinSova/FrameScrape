@@ -88,7 +88,7 @@ GBVS = {
     "Vaseraga": (f"{HOST}/index.php?title=GBVS/Vaseraga", f"{HOST}/images/5/57/GBVS_Vaseraga_Icon.png"),
     "Yuel": (f"{HOST}/index.php?title=GBVS/Yuel", f"{HOST}/images/4/45/GBVS_Yuel_Icon.png"),
     "Zeta": (f"{HOST}/index.php?title=GBVS/Zeta", f"{HOST}/images/f/f0/GBVS_Zeta_Icon.png"),
-    "Zooey": (f"{HOST}/index.php?title=GBVS/Zooey" f"{HOST}/images/f/f5/GBVS_Zooey_Icon.png")
+    "Zooey": (f"{HOST}/index.php?title=GBVS/Zooey", f"{HOST}/images/f/f5/GBVS_Zooey_Icon.png")
 }
 
 BBTAG = {
@@ -153,7 +153,7 @@ BBTAG = {
     "Heart_Aino": (f"{HOST}/index.php?title=BBTag/Heart_Aino", f"{HOST}/images/thumb/2/23/BBTag_Heart_Icon.png/90px-BBTag_Heart_Icon.png"),
     "Yumi": (f"{HOST}/index.php?title=BBTag/Yumi", f"{HOST}/images/thumb/8/84/BBTag_Yumi_Icon.png/90px-BBTag_Yumi_Icon.png"),
     "Akatsuki": (f"{HOST}/index.php?title=BBTag/Akatsuki", f"{HOST}/images/thumb/3/34/BBTag_Akatsuki_Icon.png/90px-BBTag_Akatsuki_Icon.png"),
-    "Blitztank": (f"{HOST}/index.php?title=BBTag/Blitztank" f"{HOST}/images/thumb/7/70/BBTag_Blitztank_Icon.png/90px-BBTag_Blitztank_Icon.png")
+    "Blitztank": (f"{HOST}/index.php?title=BBTag/Blitztank", f"{HOST}/images/thumb/7/70/BBTag_Blitztank_Icon.png/90px-BBTag_Blitztank_Icon.png")
 }
 
 GGXRDREV2 = {
@@ -184,46 +184,56 @@ GGXRDREV2 = {
     "Zato-1": (f"{HOST}/index.php?title=GGXRD-R2/Zato-1", f"{HOST}/images/thumb/a/a5/GGXRD-R2_Zato-1_Icon.png/48px-GGXRD-R2_Zato-1_Icon.png")
 }
 
-"""BBCF = {
-    "Amane_Nishiki": (f"{HOST}/index.php?title=BBCF/Amane_Nishiki",
-    "Arakune": (f"{HOST}/index.php?title=BBCF/Arakune",
-    "Azrael": (f"{HOST}/index.php?title=BBCF/Azrael",
-    "Bang_Shishigami": (f"{HOST}/index.php?title=BBCF/Bang_Shishigami",
-    "Bullet": (f"{HOST}/index.php?title=BBCF/Bullet",
-    "Carl_Clover": (f"{HOST}/index.php?title=BBCF/Carl_Clover",
-    "Celica_A._Mercury": (f"{HOST}/index.php?title=BBCF/Celica_A._Mercury",
-    "Es": (f"{HOST}/index.php?title=BBCF/Es",
-    "Hakumen": (f"{HOST}/index.php?title=BBCF/Hakumen",
-    "Hazama": (f"{HOST}/index.php?title=BBCF/Hazama",
-    "Hibiki_Kohaku": (f"{HOST}/index.php?title=BBCF/Hibiki_Kohaku",
-    "Izanami": (f"{HOST}/index.php?title=BBCF/Izanami",
-    "Izayoi": (f"{HOST}/index.php?title=BBCF/Izayoi",
-    "Jin_Kisaragi": (f"{HOST}/index.php?title=BBCF/Jin_Kisaragi",
-    "Jubei": (f"{HOST}/index.php?title=BBCF/Jubei",
-    "Kagura_Mutsuki": (f"{HOST}/index.php?title=BBCF/Kagura_Mutsuki",
-    "Kokonoe": (f"{HOST}/index.php?title=BBCF/Kokonoe",
-    "Litchi_Faye_Ling": (f"{HOST}/index.php?title=BBCF/Litchi_Faye_Ling",
-    "Makoto_Nanaya": (f"{HOST}/index.php?title=BBCF/Makoto_Nanaya",
-    "Mai_Natsume": (f"{HOST}/index.php?title=BBCF/Mai_Natsume",
-    "Naoto_Kurogane": (f"{HOST}/index.php?title=BBCF/Naoto_Kurogane",
-    "Nine_the_Phantom": (f"{HOST}/index.php?title=BBCF/Nine_the_Phantom",
-    "Noel_Vermillion": (f"{HOST}/index.php?title=BBCF/Noel_Vermillion",
-    "Platinum_the_Trinity": (f"{HOST}/index.php?title=BBCF/Platinum_the_Trinity",
-    "Rachel_Alucard": (f"{HOST}/index.php?title=BBCF/Rachel_Alucard",
-    "Ragna_the_Bloodedge": (f"{HOST}/index.php?title=BBCF/Ragna_the_Bloodedge",
-    "Relius_Clover": (f"{HOST}/index.php?title=BBCF/Relius_Clover",
-    "Susano'o": (f"{HOST}/index.php?title=BBCF/Susano'o",
-    "Iron_Tager": (f"{HOST}/index.php?title=BBCF/Iron_Tager",
-    "Taokaka": (f"{HOST}/index.php?title=BBCF/Taokaka",
-    "Tsubaki_Yayoi": (f"{HOST}/index.php?title=BBCF/Tsubaki_Yayoi",
-    "Yuuki_Terumi": (f"{HOST}/index.php?title=BBCF/Yuuki_Terumi",
-    "Valkenhayn_R._Hellsing": (f"{HOST}/index.php?title=BBCF/Valkenhayn_R._Hellsing",
-    "Lambda-11": (f"{HOST}/index.php?title=BBCF/Lambda-11",
-    "Mu-12": (f"{HOST}/index.php?title=BBCF/Mu-12",
-    "Nu-13": (f"{HOST}/index.php?title=BBCF/Nu-13"
+BBCF = {
+    "Amane_Nishiki": (f"{HOST}/index.php?title=BBCF/Amane_Nishiki", f"{HOST}/images/thumb/8/86/BBCF_Amane_Nishiki_Icon.png/80px-BBCF_Amane_Nishiki_Icon.png"),
+    "Arakune": (f"{HOST}/index.php?title=BBCF/Arakune", f"{HOST}/images/thumb/d/df/BBCF_Arakune_Icon.png/80px-BBCF_Arakune_Icon.png"),
+    "Azrael": (f"{HOST}/index.php?title=BBCF/Azrael", f"{HOST}/images/thumb/7/71/BBCF_Azrael_Icon.png/80px-BBCF_Azrael_Icon.png"),
+    "Bang_Shishigami": (f"{HOST}/index.php?title=BBCF/Bang_Shishigami", f"{HOST}/images/thumb/a/a5/BBCF_Bang_Shishigami_Icon.png/80px-BBCF_Bang_Shishigami_Icon.png"),
+    "Bullet": (f"{HOST}/index.php?title=BBCF/Bullet", f"{HOST}/images/thumb/1/17/BBCF_Bullet_Icon.png/80px-BBCF_Bullet_Icon.png"),
+    "Carl_Clover": (f"{HOST}/index.php?title=BBCF/Carl_Clover", f"{HOST}/images/thumb/1/1f/BBCF_Carl_Clover_Icon.png/80px-BBCF_Carl_Clover_Icon.png"),
+    "Celica_A._Mercury": (f"{HOST}/index.php?title=BBCF/Celica_A._Mercury", f"{HOST}/images/thumb/a/a1/BBCF_Celica_A._Mercury_Icon.png/80px-BBCF_Celica_A._Mercury_Icon.png"),
+    "Es": (f"{HOST}/index.php?title=BBCF/Es", f"{HOST}/images/thumb/a/a1/BBCF_Es_Icon.png/80px-BBCF_Es_Icon.png"),
+    "Hakumen": (f"{HOST}/index.php?title=BBCF/Hakumen", f"{HOST}/images/thumb/4/4a/BBCF_Hakumen_Icon.png/80px-BBCF_Hakumen_Icon.png"),
+    "Hazama": (f"{HOST}/index.php?title=BBCF/Hazama", f"{HOST}/images/thumb/d/db/BBCF_Hazama_Icon.png/80px-BBCF_Hazama_Icon.png"),
+    "Hibiki_Kohaku": (f"{HOST}/index.php?title=BBCF/Hibiki_Kohaku", f"{HOST}/images/thumb/f/fb/BBCF_Hibiki_Kohaku_Icon.png/80px-BBCF_Hibiki_Kohaku_Icon.png"),
+    "Izanami": (f"{HOST}/index.php?title=BBCF/Izanami", f"{HOST}/images/thumb/1/13/BBCF_Izanami_Icon.png/80px-BBCF_Izanami_Icon.png"),
+    "Izayoi": (f"{HOST}/index.php?title=BBCF/Izayoi", f"{HOST}/images/thumb/f/f2/BBCF_Izayoi_Icon.png/80px-BBCF_Izayoi_Icon.png"),
+    "Jin_Kisaragi": (f"{HOST}/index.php?title=BBCF/Jin_Kisaragi", f"{HOST}/images/thumb/1/1e/BBCF_Jin_Kisaragi_Icon.png/80px-BBCF_Jin_Kisaragi_Icon.pn"),
+    "Jubei": (f"{HOST}/index.php?title=BBCF/Jubei", f"{HOST}/images/thumb/6/63/BBCF_Jubei_Icon.png/80px-BBCF_Jubei_Icon.png"),
+    "Kagura_Mutsuki": (f"{HOST}/index.php?title=BBCF/Kagura_Mutsuki", f"{HOST}/images/thumb/7/72/BBCF_Kagura_Mutsuki_Icon.png/80px-BBCF_Kagura_Mutsuki_Icon.png"),
+    "Kokonoe": (f"{HOST}/index.php?title=BBCF/Kokonoe", f"{HOST}/images/thumb/2/2b/BBCF_Kokonoe_Icon.png/80px-BBCF_Kokonoe_Icon.png"),
+    "Litchi_Faye_Ling": (f"{HOST}/index.php?title=BBCF/Litchi_Faye_Ling", f"{HOST}/images/thumb/e/ed/BBCF_Litchi_Faye_Ling_Icon.png/80px-BBCF_Litchi_Faye_Ling_Icon.png"),
+    "Makoto_Nanaya": (f"{HOST}/index.php?title=BBCF/Makoto_Nanaya", f"{HOST}/images/thumb/6/6a/BBCF_Makoto_Nanaya_Icon.png/80px-BBCF_Makoto_Nanaya_Icon.png"),
+    "Mai_Natsume": (f"{HOST}/index.php?title=BBCF/Mai_Natsume", f"{HOST}/images/thumb/a/a2/BBCF_Mai_Natsume_Icon.png/80px-BBCF_Mai_Natsume_Icon.png"),
+    "Naoto_Kurogane": (f"{HOST}/index.php?title=BBCF/Naoto_Kurogane", f"{HOST}/images/thumb/2/2e/BBCF_Naoto_Kurogane_Icon.png/80px-BBCF_Naoto_Kurogane_Icon.png"),
+    "Nine_the_Phantom": (f"{HOST}/index.php?title=BBCF/Nine_the_Phantom", f"{HOST}/images/thumb/1/1f/BBCF_Nine_the_Phantom_Icon.png/80px-BBCF_Nine_the_Phantom_Icon.png"),
+    "Noel_Vermillion": (f"{HOST}/index.php?title=BBCF/Noel_Vermillion", f"{HOST}/images/thumb/e/e8/BBCF_Noel_Vermillion_Icon.png/80px-BBCF_Noel_Vermillion_Icon.png"),
+    "Platinum_the_Trinity": (f"{HOST}/index.php?title=BBCF/Platinum_the_Trinity", f"{HOST}/images/thumb/d/da/BBCF_Platinum_the_Trinity_Icon.png/80px-BBCF_Platinum_the_Trinity_Icon.png"),
+    "Rachel_Alucard": (f"{HOST}/index.php?title=BBCF/Rachel_Alucard", f"{HOST}/images/thumb/6/63/BBCF_Rachel_Alucard_Icon.png/80px-BBCF_Rachel_Alucard_Icon.png"),
+    "Ragna_the_Bloodedge": (f"{HOST}/index.php?title=BBCF/Ragna_the_Bloodedge", f"{HOST}/images/thumb/1/1a/BBCF_Ragna_the_Bloodedge_Icon.png/80px-BBCF_Ragna_the_Bloodedge_Icon.png"),
+    "Relius_Clover": (f"{HOST}/index.php?title=BBCF/Relius_Clover", f"{HOST}/images/thumb/7/73/BBCF_Relius_Clover_Icon.png/80px-BBCF_Relius_Clover_Icon.png"),
+    "Susano'o": (f"{HOST}/index.php?title=BBCF/Susano'o", f"{HOST}/images/thumb/6/64/BBCF_Susano%27o_Icon.png/80px-BBCF_Susano%27o_Icon.png"),
+    "Iron_Tager": (f"{HOST}/index.php?title=BBCF/Iron_Tager", f"{HOST}/images/thumb/6/6c/BBCF_Iron_Tager_Icon.png/80px-BBCF_Iron_Tager_Icon.png"),
+    "Taokaka": (f"{HOST}/index.php?title=BBCF/Taokaka", f"{HOST}/images/thumb/8/80/BBCF_Taokaka_Icon.png/80px-BBCF_Taokaka_Icon.png"),
+    "Tsubaki_Yayoi": (f"{HOST}/index.php?title=BBCF/Tsubaki_Yayoi", f"{HOST}/images/thumb/6/67/BBCF_Tsubaki_Yayoi_Icon.png/80px-BBCF_Tsubaki_Yayoi_Icon.png"),
+    "Yuuki_Terumi": (f"{HOST}/index.php?title=BBCF/Yuuki_Terumi", f"{HOST}/images/thumb/e/ee/BBCF_Yuuki_Terumi_Icon.png/80px-BBCF_Yuuki_Terumi_Icon.png"),
+    "Valkenhayn_R._Hellsing": (f"{HOST}/index.php?title=BBCF/Valkenhayn_R._Hellsing", f"{HOST}/images/thumb/6/68/BBCF_Valkenhayn_R._Hellsing_Icon.png/80px-BBCF_Valkenhayn_R._Hellsing_Icon.png"),
+    "Lambda-11": (f"{HOST}/index.php?title=BBCF/Lambda-11", f"{HOST}/images/thumb/2/28/BBCF_Lambda-11_Icon.png/80px-BBCF_Lambda-11_Icon.png"),
+    "Mu-12": (f"{HOST}/index.php?title=BBCF/Mu-12", f"{HOST}/images/thumb/b/b1/BBCF_Mu-12_Icon.png/80px-BBCF_Mu-12_Icon.png"),
+    "Nu-13": (f"{HOST}/index.php?title=BBCF/Nu-13", f"{HOST}/images/thumb/1/10/BBCF_Nu-13_Icon.png/80px-BBCF_Nu-13_Icon.png")
 }
 
-"""UNICLR = {
+GAMES = {
+    "P4AU": P4AU,
+    "DBFZ": DBFZ,
+    "GBVS": GBVS,
+    "BBTAG": BBTAG,
+    "GGXRDREV2": GGXRDREV2,
+    "BBCF": BBCF
+}
+
+# Unused #
+UNICLR = {
     "Hyde": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Hyde",
     "Linne": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Linne",
     "Waldstein": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Waldstein",
@@ -245,19 +255,4 @@ GGXRDREV2 = {
     "Londrekia": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Londrekia",
     "Eltnum": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Eltnum",
     "Akatsuki": "http://wiki.mizuumi.net/w/Under_Night_In-Birth/UNICLR/Akatsuki"
-}
-
-GAMES = {
-    "P4AU": P4AU,
-    "DBFZ": DBFZ,
-    "GBVS": GBVS,
-    "BBTAG": BBTAG,
-    "GGXRDREV2": GGXRDREV2,
-    "BBCF": BBCF,
-    "UNICLR": UNICLR
-} """
-
-GAMES = {
-    "P4AU": P4AU,
-    "DBFZ": DBFZ
 }
