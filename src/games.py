@@ -58,6 +58,7 @@ DBFZ = {
     "Master_Roshi": (f"{HOST}/index.php?title=DBFZ/Master_Roshi", f"{HOST}/images/thumb/8/8d/DBFZ_Master_Roshi_Icon.png/80px-DBFZ_Master_Roshi_Icon.png"),
     "Nappa": (f"{HOST}/index.php?title=DBFZ/Nappa", f"{HOST}/images/thumb/0/00/DBFZ_Nappa_Icon.png/81px-DBFZ_Nappa_Icon.png"),
     "Piccolo": (f"{HOST}/index.php?title=DBFZ/Piccolo", f"{HOST}/images/thumb/c/c8/DBFZ_Piccolo_Icon.png/81px-DBFZ_Piccolo_Icon.png"),
+    "Super Baby 2": (f"{HOST}/index.php?title=DBFZ/Super_Baby_2", f"{HOST}/images/thumb/4/4e/DBFZ_Super_Baby_2_Icon.png/81px-DBFZ_Super_Baby_2_Icon.png"),
     "Tien": (f"{HOST}/index.php?title=DBFZ/Tien", f"{HOST}/images/thumb/8/85/DBFZ_Tien_Icon.png/81px-DBFZ_Tien_Icon.png"),
     "Trunks": (f"{HOST}/index.php?title=DBFZ/Trunks", f"{HOST}/images/thumb/b/b8/DBFZ_Trunks_Icon.png/81px-DBFZ_Trunks_Icon.png"),
     "Vegeta": (f"{HOST}/index.php?title=DBFZ/Vegeta", f"{HOST}/images/thumb/6/66/DBFZ_Vegeta_Icon.png/81px-DBFZ_Vegeta_Icon.png"),
@@ -70,6 +71,7 @@ DBFZ = {
 }
 
 GBVS = {
+    "Anre": (f"{HOST}/index.php?title=GBVS/Anre", f"{HOST}/images/1/1f/GBVS_Anre_Icon.png"),
     "Beelzebub": (f"{HOST}/index.php?title=GBVS/Beelzebub", f"{HOST}/images/f/fd/GBVS_Beelzebub_Icon.png"),
     "Belial": (f"{HOST}/index.php?title=GBVS/Belial", f"{HOST}/images/b/bb/GBVS_Belial_Icon.png"),
     "Cagliostro": (f"{HOST}/index.php?title=GBVS/Cagliostro", f"{HOST}/images/c/c7/GBVS_Cagliostro_Icon.png"),
