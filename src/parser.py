@@ -7,7 +7,7 @@ def parse_move_table(content, domain, name):
     move = dict()
 
     move["Name"] = name
-    # move["Input"] = None //TODO
+    # TODO Move Input move["Input"] = None
 
     attack_gallery = content.find("div", {"class": "attack-gallery"})
     attack_info = content.find("div", {"class": "attack-info"})
@@ -45,7 +45,7 @@ def parse_move_table(content, domain, name):
     # ------------------------------------------------------------------------
     attack_data_descriptions = [attack.text for attack in attack_info.findAll("p")]
 
-    #TODO: Fix by looking at <br> tag
+    # TODO: Fix by looking at <br> tag
 
     # Safety
     if len(move["Versions"]) == 0:
